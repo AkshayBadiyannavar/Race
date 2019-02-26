@@ -95,6 +95,8 @@ function initialize()
     roundScore=0;
 
     activePlayer=0;
+    
+    gamePlaying=true;
 
     document.querySelector('.dice').style.display='none';
 
